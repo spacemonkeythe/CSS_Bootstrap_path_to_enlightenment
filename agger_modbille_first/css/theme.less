@@ -165,3 +165,30 @@ footer a:hover {
   background-color: @md-grey;
   color: @white;
 }
+
+.post {
+  padding-bottom: @padding;
+  border-bottom: @border-size @light-grey @border-type;
+  margin-top: (@margin * 2);
+}
+
+.post:first-child {
+  margin-top: 0;
+}
+
+.post small {
+  color: @md-light-grey;
+}
+
+.post small a {
+  // color: @md-light-grey;
+  text-decoration: underline;
+}
+
+.posr small a:hover {
+  color: @md-grey;
+}
+
+.feed-nav, .feed-pages {
+  margin-top: (@margin * 2);
+}

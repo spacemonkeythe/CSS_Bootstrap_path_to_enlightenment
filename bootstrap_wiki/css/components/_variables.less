@@ -21,11 +21,18 @@
 @navy1: #34495e;
 @navy2: #2c3e50;
 
+@bw-dark-primary: #00796b;
+@bw-primary: #009688;
+@bw-light-primary: #b2dfdb;
+@bw-black: #212121;
+@bw-grey: #727272;
+@bw-light-grey: #b6b6b6;
+
 @primary-background: @white;
-@secondary-background: @off-white;
+@secondary-background: @light-grey;
 @third-background: @light-grey;
 @fourth-background: @grey;
-@inverse-background: @dark-grey;
+@inverse-background: @bw-primary;
 
 @primary-text: @dark-grey;
 @light-text: @light-grey;
@@ -33,8 +40,14 @@
 @inverse-text: @white;
 @heading-text: @dark-grey;
 
-@primary-link-color: @blue1;
-@primary-link-color-hover: @blue2;
+@primary-text: @bw-black;
+@light-text: @bw-grey;
+@loud-text: @black;
+@inverse-text: @white;
+@heading-text: @bw-primary;
+
+@primary-link-color: @bw-primary;
+@primary-link-color-hover: @bw-dark-primary;
 
 @border-color: @light-grey;
 @border-size: 1px;
@@ -42,16 +55,16 @@
 @border-focus: @grey;
 @secondary-border-color: @blue1;
 
-@body-copy: "Helvetica Neue", helvetica, arial, verdana, sans-serif;
-@heading-copy: "Helvetica Neue", helvetica, arial, verdana, sans-serif;
-@base-font-size: 14px;
+@body-copy: "Source Sans Pro", helvetica, arial, verdana, sans-serif;
+@heading-copy: "Source Sans Pro", helvetica, arial, verdana, sans-serif;
+@base-font-size: 16px;
 @font-size: 1em;
 @base-line-height: 1.5;
 
 @margin: 1em;
 @padding: 1em;
 
-.round-corners (@radius: 2px) {
+.round-corners (@radius: 5px) {
   -moz-border-radius: @radius;
   -ms-border-radius: @radius;
   border-radius: @radius;

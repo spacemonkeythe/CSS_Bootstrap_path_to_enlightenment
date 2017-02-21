@@ -1,4 +1,6 @@
 @import "components/_variables";
+@import "components/_buttons";
+@import "components/_well";
 
 body {
   background: @primary-background;
@@ -38,9 +40,30 @@ Styles specific to your layout or website
 */
 
 .container {
-  padding: 0 100%;
+  padding: 0 100px;
 }
 
 .header {
   margin-top: (@margin * 2);
+}
+
+.header a {
+  color: @bw-black;
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: @bw-grey;
+}
+
+.header-nav {
+  margin-bottom: (@margin * 2);
+}
+
+.header ul {
+  margin-bottom: 0;
+}
+
+.header ul.list-inline li {
+  margin-right: (@margin * 1.25);
 }

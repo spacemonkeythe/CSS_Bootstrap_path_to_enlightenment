@@ -111,3 +111,31 @@ Styles specific to your layout or website
   padding: @padding;
   margin-bottom: (@margin * 2);
 }
+
+.feed {
+  padding: @padding;
+}
+
+.post {
+  margin-top: (@margin * 2);
+  border-bottom: @border-size @border-type @border-color;
+  padding-bottom: (@padding * 1.5);
+}
+
+.post:first-child {
+  margin-top: 0;
+}
+
+.post i {
+  color: @light-grey;
+}
+
+i.favorite {
+  color: @red1;
+}
+
+.feed-pagination {
+  margin-top: (@margin * 2);
+  padding-bottom: (@padding * 2);
+  text-align: right;
+}

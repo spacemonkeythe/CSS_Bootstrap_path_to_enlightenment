@@ -2,6 +2,7 @@
 @import "components/_buttons";
 @import "components/_well";
 @import "components/_modal";
+@import "components/_typography";
 
 body {
   background: @primary-background;
@@ -98,4 +99,9 @@ Styles specific to your layout or website
 
 .footer a:hover{
   color: @bw-grey;
+}
+
+.page-title {
+  border-bottom: (@border-size * 5) @border-type @border-color;
+  padding-bottom: @padding;
 }

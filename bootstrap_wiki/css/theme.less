@@ -143,3 +143,32 @@ i.favorite {
 .sidebar hr {
   border-color: @bw-light-grey;
 }
+
+.social-media {
+  margin-top: (@margin * 2);
+  padding-bottom: (@padding * 1.5);
+}
+
+.social-media i {
+  font-size: (@font-size * 2);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-right: @padding;
+    padding-left: @padding;
+  }
+
+  .add-content {
+    float: left;
+    margin-top: @margin;
+  }
+
+  li.desktop-only {
+    display: none;
+  }
+
+  .modal a {
+    font-size: (@font-size * 2);
+  }
+}
